@@ -1,0 +1,38 @@
+.vm-page { min-height: 100vh; padding: 20px 12px; background: #eef4ff; color: #23305a;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+.vm-page *, .vm-page *::before, .vm-page *::after { box-sizing: border-box; }
+.vm { max-width: 520px; margin: 0 auto; padding: 18px; border-radius: 24px;
+  background: #ffd3e4; border: 4px solid #f58fb5; display: grid; gap: 14px; }
+.vm h1 { margin: 0; text-align: center; color: #b8326a; font-size: 1.6rem; }
+.vm h2 { margin: 0 0 6px; font-size: 1rem; }
+.grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; padding: 12px;
+  border-radius: 16px; background: #dbe9ff; border: 3px solid #7aa6ee; }
+.slot { display: flex; flex-direction: column; align-items: center; gap: 2px; padding: 8px 4px;
+  border: 2px solid #b9cff5; border-radius: 12px; background: #fff; color: inherit;
+  font: inherit; cursor: pointer; }
+.slot small { color: #5b6a99; }
+.slot:hover:not(:disabled) { border-color: #4a7fe0; }
+.slot.ready { border-color: #f58fb5; background: #fff5f9; }
+.slot:disabled { opacity: .5; cursor: not-allowed; }
+.emoji { font-size: 2rem; }
+.price { font-weight: 700; color: #b8326a; }
+.panel, .tray, .admin { padding: 12px 14px; border-radius: 16px; background: #fff;
+  border: 3px solid #7aa6ee; display: grid; gap: 10px; }
+.tray p, .admin p { margin: 0; font-size: .92rem; }
+.display { padding: 8px 12px; border-radius: 10px; background: #23305a; color: #bcd6ff; }
+.display small { display: block; }
+.display output { font-size: 1.8rem; font-weight: 700; font-variant-numeric: tabular-nums; }
+.message { margin: 0; min-height: 3em; padding: 8px 10px; border-radius: 10px; font-size: .92rem;
+  background: #eef4ff; border-left: 4px solid #4a7fe0; }
+.message.success { background: #e6f7ee; border-color: #2e9d62; }
+.message.warn { background: #fff4dd; border-color: #e0a22a; }
+.message.error { background: #ffe5ec; border-color: #d6336c; }
+.coins { display: grid; grid-template-columns: repeat(4, 1fr); gap: 6px; }
+.coin { padding: 8px 2px; border: 0; border-radius: 999px; background: #4a7fe0; color: #fff;
+  font: inherit; font-size: .85rem; font-weight: 700; cursor: pointer; }
+.coin:hover { background: #3768c9; }
+.ghost { padding: 9px; border-radius: 12px; border: 2px solid #f58fb5; background: #fff;
+  color: #b8326a; font: inherit; font-weight: 700; cursor: pointer; }
+.ghost:hover:not(:disabled) { background: #ffe3ee; }
+.ghost:disabled { opacity: .45; cursor: not-allowed; }
+.vm-page button:focus-visible { outline: 3px solid #23305a; outline-offset: 2px; }
