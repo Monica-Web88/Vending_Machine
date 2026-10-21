@@ -2,8 +2,8 @@
 
 A interactive vending machine simulator built with **React** and a **`useReducer`-driven state machine**. Users insert coins, pick a snack, and get their item plus correct change — with smart handling of limited coin supply, sold-out items, and "exact change only" edge cases.
 
-**🔗 Live Demo:** [Add your deployed link here]
-**📦 App Demo :** [Add your GitHub repo link here]
+**🔗 Live Demo:** [https://github.com/Monica-Web88/Vending_Machine]
+**📦 App Demo :** [https://github.com/Monica-Web88/Vending_Machine]
 
 ---
 
